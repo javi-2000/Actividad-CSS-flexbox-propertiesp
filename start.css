@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: 100vh;
+    font-size: 18px;
+}
+
+.container{
+    display: flex;
+    background-color: aliceblue;
+    gap: 40px;
+    width: 100%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+}
+
+.yellow{
+    flex: 3;
+    background-color: rgb(255, 255, 201); 
+}
+
+.red{
+    flex: 3;
+    background-color: rgb(255, 164, 164);
+}
+
+.green{
+    background-color: rgb(188, 255, 188);
+}
+
+.orange{
+    flex: 7;
+    background-color: rgb(255, 228, 179);
+}
+
+.blue{
+    background-color: rgb(196, 196, 255);
+}
+
+.item{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3px;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 60px;
+    height: 90px;
+}
